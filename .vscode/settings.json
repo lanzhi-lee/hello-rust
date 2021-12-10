@@ -1,0 +1,7 @@
+{
+  "code-runner.executorMap": {
+    // "rust": "cd $dir && rustc $fileName -o $workspaceRoot\\target\\debug\\$fileNameWithoutExt && echo '' && $workspaceRoot\\target\\debug\\$fileNameWithoutExt && cd $workspaceRoot"
+    // $dir /Users/lee/development/_learn/hello-rust/src/
+    "rust": "./Run.sh $fileNameWithoutExt $dir"
+  }
+}
